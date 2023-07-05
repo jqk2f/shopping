@@ -1,0 +1,104 @@
+.w {
+    width: 1200px;
+    margin: 50px auto;
+}
+.head {
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 5px solid #c81623 ;
+}
+.body {
+    height: 500px;
+    margin-top: 10px;
+    border: 1px solid rgb(197, 194, 194);
+}
+.body .head_1 {
+    position: relative;
+    height: 30px;
+    width: 1200px;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(197, 194, 194);
+    background-color: rgba(197, 194, 194,.3);
+}
+.body .head_1 .left{
+    font-size: 18px;
+    color: #666;
+    margin-left: 18px;
+}
+.body .head_1 .right{
+   position: absolute;
+   right: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.body .head_1 a {
+    color: #c81623;
+}
+.body_1 {
+    position: relative;
+    width: 600px;
+    /* height: 300px; */
+    height: 450px;
+    margin: 10px auto;
+}
+
+.body_1 div {
+    height: 50px;
+    line-height: 50px;
+    width: 550px;
+    margin:10px auto;
+}
+.body_1 div:first-child {
+    margin-top: 40px;
+}
+.body_1 div:nth-child(5) a {
+    margin-left: 5px;
+    color: rgb(107, 183, 213);
+}
+.body_1 div:nth-child(5) span {
+    color: #666;
+}
+.body_1 div i {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: right;
+}
+.body_1 div input {
+    outline: none;
+    height: 30px;
+}
+.body_1 div span {
+    display: inline-block;
+    /* visibility: hidden; */
+    height: 40px;
+    width: 210px;
+    line-height: 40px;
+    margin: 5px 0;
+    margin-left: 10px;
+    color: #999;
+}
+.body_1 .item_5 {
+    position: relative;
+    margin-top: 20px;
+}
+.body_1 .item_5 span {
+  position: absolute;
+  visibility: visible;
+  bottom: 0；
+}
+.body_1 .item_6 {
+    position: absolute;
+    bottom: 100px;
+    left: 160px;
+    height: 30px;
+    width: 120px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #c81623;
+    border: 0;
+}
