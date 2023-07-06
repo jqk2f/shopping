@@ -49,7 +49,7 @@
     margin:10px auto;
 }
 .body_1 div:first-child {
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .body_1 div:nth-child(5) a {
     margin-left: 5px;
@@ -69,6 +69,7 @@
 .body_1 div input {
     outline: none;
     height: 30px;
+    /* width: 200px; */
 }
 .body_1 div span {
     display: inline-block;
